@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(255, 255, 0);
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0); 
+    position: unfixed;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    margin-bottom:20px;
+    margin-right:1500px
+}
+
+.dropbtn {
+    background-color: rgb(243, 20, 213);
+    color: rgb(244, 241, 243);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: bottom 100px;
+    margin-right:390px;
+    margin-top: -60px;
+}
+
+  .clothes{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  .clothes a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  .clothes a:hover {
+    background-color: #f1f1f1}
+
+  .dropdown:hover .clothes{
+    display: block;
+}
+
+.low-index {
+    position: relative;
+    border: 2px solid rgb(255, 255, 0);
+    height: 100px;
+    margin: 50px;
+  }
+
+.two{
+    margin-right:1500px
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.medium-index{
+    position: absolute;
+    width: 450PX;
+    right: 1020px;
+    top: 350px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.high-index {
+    position: absolute;
+    width: 450PX;
+    right: 440px;
+    top: 550px;
+    height: 100px;
+    font-size: 20px;
+  }
+
+span{
+    position: absolute;
+    width: 450PX;
+    right: 1020px;
+    top: 1050px;
+    height: 100px;
+}
+
+.four{
+    position: absolute;
+    width: 450PX;
+    right: 1020px;
+    top: 1090px;
+    height: 100px;
+}
